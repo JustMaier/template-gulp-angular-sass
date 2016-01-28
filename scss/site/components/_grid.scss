@@ -1,0 +1,6 @@
+.row-no-gutter{
+	margin:0;
+	&>[class*='col-']{
+		padding:0;
+	}
+}

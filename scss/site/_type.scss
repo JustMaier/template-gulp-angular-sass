@@ -1,0 +1,52 @@
+// Headers
+//============================
+
+// Gutters
+//=================================
+$gutter: 15px !default;
+.gutter{
+	&-top{ margin-top:$gutter !important; }
+	&-bottom{ margin-bottom:$gutter !important; }
+	@extend .gutter-top;
+	@extend .gutter-bottom;
+	&-full{
+		&-top{ margin-top:$gutter*2 !important; }
+		&-bottom{ margin-bottom:$gutter*2 !important; }
+		@extend .gutter-full-top;
+		@extend .gutter-full-bottom;
+	}
+}
+.no-gutter{
+	&-top{ margin-top:0 !important; }
+	&-bottom{ margin-bottom:0 !important; }
+	@extend .no-gutter-top;
+	@extend .no-gutter-bottom;
+}
+.icon-lg{
+	font-size:4em;
+}
+.img-center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+// Character Styles
+//=================================
+.transition-color{
+	transition:color .4s ease;
+}
+.icon-group{
+	display:inline-block;
+	margin-right:10px;
+	i{
+		opacity: .8;
+	}
+}
+.icon-title{
+	white-space: nowrap;
+}
+.break{
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+}

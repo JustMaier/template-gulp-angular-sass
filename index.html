@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- inject:head:html -->
+	<title>My App</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/site.css">
+	<!-- endinject -->
+</head>
+<body>
+
+<!-- inject:header:html -->
+<!-- endinject -->
+
+<div id="main">
+	<ui-view></ui-view>
+</div>
+
+<!-- inject:footer:html -->
+<!-- endinject -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.1/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.17/angular-ui-router.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.1.1/ui-bootstrap-tpls.js"></script>
+
+<!-- inject:scripts:html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.1/angular-mocks.js"></script>
+<script src="js/min/vendor.js"></script>
+<script src="js/min/templates.js"></script>
+<script>
+	window.apiEndpoint = '/api';
+</script>
+<script src="js/min/mock.js"></script>
+<script src="js/min/app.js"></script>
+<!-- endinject -->
+
+</body>
+</html>

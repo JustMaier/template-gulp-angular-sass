@@ -1,0 +1,4 @@
+@mixin text-shadow-inset($color, $opacity:.2){
+	color:rgba($color, $opacity);
+	text-shadow: 1px 1px 1px rgba(lighten($color, 90%),($opacity+.1)), 0 0 0 rgba($color,($opacity+.2));
+}

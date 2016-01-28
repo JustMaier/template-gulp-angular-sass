@@ -1,0 +1,32 @@
+{
+  "name": "template-gulp-angular-sass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A starting template for a single page app using gulp, angular, and sass",
+  "author": {
+    "name": "Justin",
+    "email": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "*",
+    "gulp-angular-templatecache": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-concat": "*",
+    "gulp-copy": "0.0.2",
+    "gulp-filter": "^2.0.2",
+    "gulp-inject": "^1.5.0",
+    "gulp-livereload": "*",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uglifycss": "^1.0.4",
+    "gulp-webserver": "^0.9.1"
+  }
+}

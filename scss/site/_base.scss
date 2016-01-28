@@ -1,0 +1,7 @@
+$container-skinny-width: 400px !default;
+.container-skinny{
+	margin:0 auto;
+	padding:0 15px;
+	box-sizing:content-box;
+	max-width:$container-skinny-width;
+}
